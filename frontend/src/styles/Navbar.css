@@ -27,7 +27,7 @@
     border-radius: 50px;
     padding: 20px;
     position: fixed; 
-    top: 10px; 
+    top: 30px; 
     left: 50%;
     transform: translateX(-50%); 
     width: 30%;
@@ -37,7 +37,7 @@
 .navbar-links {
     list-style: none;
     display: flex;
-    gap: 30px; 
+    gap: 50px; 
     margin: 0;
     padding: 0;
 }
