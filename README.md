@@ -1,3 +1,10 @@
+
+Deploy Link: https://saipraveen-kuruba-frontend-developer.vercel.app/
+
+App works:
+The EthAi application is an AI-powered decentralized application (dApp) designed to empower traders with advanced technology for making informed trading decisions. Users can navigate through various sections, including the Dashboard, which showcases key features such as Trade Optimizer, Market Insight, Risk Guard, Portfolio Sync, and Opportunity Scout. Each feature provides personalized insights, real-time market trends, and alerts to help users optimize their trading strategies. The Roadmap section outlines the app's development phases, highlighting key milestones and future enhancements. The Tokenomics page details the distribution and specifications of the EthAi token, facilitating transparency and trust among users. The app ensures a seamless user experience with intuitive navigation, enabling both novice and experienced traders to leverage AI for smarter, data-driven trading.
+
+
 Project Details 
 
 The Navbar component is a critical part of the EthAi application, designed to improve user navigation and engagement. By incorporating essential links and action buttons within a visually appealing layout, this component contributes to a positive user experience and facilitates easy access to important information.
