@@ -1,0 +1,126 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent; 
+}
+
+.navbar-logo {
+    display: flex; 
+    align-items: center; 
+}
+
+.navbar-logo .logo {
+    height: 50px; 
+    margin-right: 10px; 
+}
+
+.navbar-logo h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00e4ff; 
+}
+
+.navbar-links-container {
+    background-color: #003742; 
+    border-radius: 50px;
+    padding: 20px;
+    position: fixed; 
+    top: 10px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 30%;
+    z-index: 1000; 
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 30px; 
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links a {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #00e4ff; 
+}
+
+.navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.login-btn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.whitepaper-btn {
+    padding: 10px 20px;
+    background-color: #00e4ff;
+    border: none;
+    border-radius: 15px;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.whitepaper-btn:hover {
+    background-color: #fff; 
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px; 
+    }
+
+    .navbar-logo h3 {
+        display: none; 
+    }
+
+    .navbar-links-container {
+        width: 350px; 
+        height: 50px; 
+    }
+
+    .navbar-links {
+        flex-direction: column; 
+        gap: 10px; 
+        display: none; 
+    }
+
+    .navbar-actions {
+        display: none; 
+    }
+
+    .menu-toggle {
+        font-size: 24px;
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-links-container.active {
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .navbar-links.active {
+        display: flex; 
+    }
+}

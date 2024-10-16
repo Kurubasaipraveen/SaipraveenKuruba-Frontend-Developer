@@ -1,0 +1,125 @@
+.about-container {
+    background-color: #0c141f;
+    color: #e0eafc;
+    padding: 50px 20px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .about-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-container p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto 40px;
+  }
+  
+  .read-more-btn {
+    background-color: #0baeff;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 50px;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #08a0e6;
+  }
+  
+  .combined-feature-card {
+    background-color: #08252a;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px;
+  }
+  
+  .feature-item {
+    text-align: left;
+  }
+  
+  .feature-item .icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-radius: 50%;
+  }
+  
+  .stay-ahead-icon {
+    background: url('https://res.cloudinary.com/dyutmmnia/image/upload/v1728974059/gr7xqc2fqhkzntmux8ek.png') no-repeat center center;
+    background-size: cover;
+    
+  }
+  
+  .know-assets-icon {
+    background: url('https://res.cloudinary.com/dyutmmnia/image/upload/v1728974058/faxapyk4swocfutiwvch.png') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .simple-icon {
+    background: url('https://res.cloudinary.com/dyutmmnia/image/upload/v1728974065/otphvbetyujy5glqzvoz.png') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .future-proof-icon {
+    background: url('https://res.cloudinary.com/dyutmmnia/image/upload/v1728974074/er5v2smxfit64fqaqf21.png') no-repeat center center;
+    background-size: contain;
+    height: 20px;
+  }
+  
+  /* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .about-container {
+        padding: 20px 10px; 
+    }
+
+    .about-container h2 {
+        font-size: 1.8rem; 
+        margin-bottom: 15px;
+    }
+
+    .about-container p {
+        font-size: 0.9rem; 
+        max-width: 100%; 
+        margin-bottom: 20px;
+    }
+
+    .read-more-btn {
+        padding: 8px 15px; 
+        font-size: 0.9rem; 
+    }
+
+    .combined-feature-card {
+        grid-template-columns: 1fr; 
+        gap: 10px; 
+        padding: 15px; 
+    }
+
+    .feature-item {
+        text-align: center; 
+    }
+
+    .feature-item .icon {
+        width: 30px; 
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .stay-ahead-icon,
+    .know-assets-icon,
+    .simple-icon,
+    .future-proof-icon {
+        background-size: cover;
+    }
+}

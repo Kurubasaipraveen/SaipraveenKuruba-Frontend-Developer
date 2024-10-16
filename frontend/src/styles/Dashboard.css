@@ -1,0 +1,182 @@
+.dashboard {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #0c141f;
+}
+
+.first {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 80vh;
+    width: 250px; 
+    margin: 10px;
+}
+
+.second {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    margin: 10px;
+}
+
+.card {
+    background-color: #08252a;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.trade-optimizer {
+    border-top-left-radius: 50px;
+}
+
+.risk-guard {
+    border-top-right-radius: 50px;
+}
+
+.market-insight {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.card img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-color: #0c141f;
+    background-size: cover;
+}
+
+.portfolio-sync {
+    border-bottom-left-radius: 50px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.opportunity-scout {
+    border-bottom-right-radius: 50px;
+    width: 75vw;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-placeholder {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px dashed #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin: 10px;
+    width: 100%;
+}
+
+.risk-guard {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 150px; /* Increase image width */
+    height: auto; /* Keep the aspect ratio */
+    margin-bottom: 15px;
+    height: 200px;
+}
+
+/* For small mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .dashboard {
+        flex-direction: column; /* Stack the dashboard items vertically */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .first {
+        width: 100%; /* Full width */
+        height: auto; /* Natural height */
+        margin: 5px 0; /* Reduced margin */
+        position: relative;
+        display: flex;
+        flex-direction: column; /* Column direction for stacking */
+        align-items: center;
+    }
+
+    /* Add "Our Features" text in mobile version */
+    .first::before {
+        content: "Our Features";
+        font-size: 24px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .second {
+        width: 100%; /* Full width */
+        height: auto; /* Natural height */
+        margin: 5px 0; /* Reduced margin */
+    }
+
+    .card {
+        width: 100%; 
+        margin-bottom: 15px; 
+    }
+
+    .card img {
+        width: 80px; 
+        height: auto;
+    }
+
+    .card h3 {
+        font-size: 16px;
+    }
+
+    .card p {
+        font-size: 13px; 
+    }
+
+    .market-insight, .opportunity-scout {
+        flex-direction: column; 
+        width: 100%; 
+    }
+
+    .row {
+        flex-direction: column; 
+        width: 100%;
+    }
+    .card-placeholder {
+        display: none;
+    }
+}
