@@ -14,11 +14,21 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-links-container">
+        
         <ul className="navbar-links">
+   
+      <img
+          src="https://res.cloudinary.com/dyutmmnia/image/upload/v1728981969/gbfb82pumsdsgvivfjcf.png"
+          className="logo"
+          alt="logo"
+        />
           <li>Features</li>
           <li>Why Us</li>
           <li>Tokenomics</li>
           <li>Roadmap</li>
+          <div className="menu-toggle">
+        ☰
+      </div>
         </ul>
       </div>
 

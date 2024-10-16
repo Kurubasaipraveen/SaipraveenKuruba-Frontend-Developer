@@ -14,6 +14,10 @@
     width: 250px; 
     margin: 10px;
 }
+.portfolio-sync,h3,post{
+    display: flex;
+    flex-direction: row;
+}
 
 .second {
     flex: 1;
@@ -130,7 +134,7 @@
         position: relative;
         display: flex;
         flex-direction: column; /* Column direction for stacking */
-        align-items: center;
+        align-items: center; /* Center items */
     }
 
     /* Add "Our Features" text in mobile version */
@@ -150,33 +154,90 @@
     }
 
     .card {
-        width: 100%; 
-        margin-bottom: 15px; 
+        width: 100%; /* Full width for cards */
+        margin-bottom: 15px; /* Space between cards */
+        padding: 10px; /* Inner padding for cards */
+        display: flex;
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center; /* Center items within card */
+        text-align: center; /* Center text */
     }
 
     .card img {
-        width: 80px; 
-        height: auto;
+        width: 80px; /* Smaller width for mobile */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 10px; /* Space below the image */
     }
 
     .card h3 {
-        font-size: 16px;
+        font-size: 18px; /* Adjust title size for readability */
+        margin: 5px 0; /* Space above and below the title */
     }
 
     .card p {
-        font-size: 13px; 
+        font-size: 14px; /* Adjust paragraph size */
+        margin: 0; /* Remove default margin */
     }
 
-    .market-insight, .opportunity-scout {
-        flex-direction: column; 
-        width: 100%; 
+    .market-insight {
+        display: flex; /* Enable flex for the card */
+        flex-direction: row; /* Align children in a row */
+        justify-content: space-between; /* Space out children */
+        width: 100%; /* Full width */
+        align-items: center; /* Center vertically */
+    }
+
+    .market-insight img {
+        margin-left: auto; /* Push image to the right */
+        margin-right: 0; /* Remove any right margin */
+    }
+
+    /* Adjust portfolio-sync styles */
+    .portfolio-sync,h3,port{
+        display: flex; /* Enable flex for the card */
+        flex-direction: row; /* Align text and image in a row */
+        align-items: center; /* Center items vertically */
+        width: 100%; /* Full width */
+        margin: 5px 0; /* Reduced margin */
+    }
+
+    .portfolio-sync p {
+        margin-right: 10px; /* Space between text and image */
+        font-size: 14px; /* Adjust font size if needed */
+    }
+
+    .portfolio-sync img {
+        width: 60px; /* Adjust image size for mobile */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .risk-guard {
+        display: flex; /* Enable flex for the card */
+        flex-direction: column; /* Stack text above image */
+        align-items: center; /* Center items within card */
+        width: 100%; /* Full width */
+    }
+
+    .risk-guard img {
+        margin-top: 10px; /* Space above the image */
+    }
+
+    .opportunity-scout {
+        flex-direction: column; /* Stack image above text */
+        width: 100%; /* Full width */
+        align-items: center; /* Center content */
     }
 
     .row {
-        flex-direction: column; 
-        width: 100%;
+        flex-direction: column; /* Stack rows vertically */
+        width: 100%; /* Full width */
     }
+
     .card-placeholder {
-        display: none;
+        display: none; /* Hide placeholder on mobile */
     }
 }
+
+
+
+

@@ -97,7 +97,7 @@ const Dashboard = () => {
               </p>
             </div>
             <div>
-              <img src={portfolioSyncImage} alt="Portfolio Sync Icon" />
+              <img src={portfolioSyncImage} alt="Portfolio Sync Icon" className='port' />
             </div>
           </div>
           <div className="card opportunity-scout">

@@ -121,5 +121,6 @@
     .simple-icon,
     .future-proof-icon {
         background-size: cover;
+        height: 100px;
     }
 }
