@@ -61,6 +61,6 @@ If there are any specific technologies or libraries you want to highlight or if 
 
 
 
-![image alt](![Uploading Screen Capture 001 - React App - saipraveen-kuruba-frontend-developer.vercel.app.jpg…]())
+![image alt](https://github.com/Kurubasaipraveen/SaipraveenKuruba-Frontend-Developer/blob/87c3879946316fb548575e030cd07539ea90f341/frontend/Screen%20Capture%20001%20-%20React%20App%20-%20saipraveen-kuruba-frontend-developer.vercel.app.jpg)
 
 
